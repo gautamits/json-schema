@@ -1,0 +1,29 @@
+{
+  "name": "json-schema",
+  "version": "1.0.0",
+  "description": "",
+  "homepage":"https://gautamits.github.io/json-schema",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy":"gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautamits/json-schema.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gautamits/json-schema/issues"
+  },
+  "homepage": "https://github.com/gautamits/json-schema#readme"
+}
